@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4DDF4F1860710B005AE3EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4DDF4E1860710B005AE3EB /* UIKit.framework */; };
+		0F4DDF511860710B005AE3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4DDF501860710B005AE3EB /* Foundation.framework */; };
+		0F4DDF531860710B005AE3EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4DDF521860710B005AE3EB /* CoreGraphics.framework */; };
+		0F4DDF591860710B005AE3EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DDF571860710B005AE3EB /* InfoPlist.strings */; };
+		0F4DDF5B1860710B005AE3EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DDF5A1860710B005AE3EB /* main.m */; };
+		0F4DDF5F1860710B005AE3EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DDF5E1860710B005AE3EB /* AppDelegate.m */; };
+		0F4DDF611860710C005AE3EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DDF601860710C005AE3EB /* Default.png */; };
+		0F4DDF631860710C005AE3EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DDF621860710C005AE3EB /* Default@2x.png */; };
+		0F4DDF651860710C005AE3EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DDF641860710C005AE3EB /* Default-568h@2x.png */; };
+		0F4DDF681860710C005AE3EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DDF671860710C005AE3EB /* ViewController.m */; };
+		0F4DDF6B1860710C005AE3EB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DDF691860710C005AE3EB /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4DDF4B1860710B005AE3EB /* 威锋网新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "威锋网新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4DDF4E1860710B005AE3EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F4DDF501860710B005AE3EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F4DDF521860710B005AE3EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F4DDF561860710B005AE3EB /* 威锋网新闻-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "威锋网新闻-Info.plist"; sourceTree = "<group>"; };
+		0F4DDF581860710B005AE3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F4DDF5A1860710B005AE3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F4DDF5C1860710B005AE3EB /* 威锋网新闻-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "威锋网新闻-Prefix.pch"; sourceTree = "<group>"; };
+		0F4DDF5D1860710B005AE3EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F4DDF5E1860710B005AE3EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F4DDF601860710C005AE3EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F4DDF621860710C005AE3EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F4DDF641860710C005AE3EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F4DDF661860710C005AE3EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F4DDF671860710C005AE3EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F4DDF6A1860710C005AE3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4DDF481860710B005AE3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4DDF4F1860710B005AE3EB /* UIKit.framework in Frameworks */,
+				0F4DDF511860710B005AE3EB /* Foundation.framework in Frameworks */,
+				0F4DDF531860710B005AE3EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4DDF421860710B005AE3EB = {
+			isa = PBXGroup;
+			children = (
+				0F4DDF541860710B005AE3EB /* 威锋网新闻 */,
+				0F4DDF4D1860710B005AE3EB /* Frameworks */,
+				0F4DDF4C1860710B005AE3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F4DDF4C1860710B005AE3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4DDF4B1860710B005AE3EB /* 威锋网新闻.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F4DDF4D1860710B005AE3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4DDF4E1860710B005AE3EB /* UIKit.framework */,
+				0F4DDF501860710B005AE3EB /* Foundation.framework */,
+				0F4DDF521860710B005AE3EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F4DDF541860710B005AE3EB /* 威锋网新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				0F4DDF5D1860710B005AE3EB /* AppDelegate.h */,
+				0F4DDF5E1860710B005AE3EB /* AppDelegate.m */,
+				0F4DDF661860710C005AE3EB /* ViewController.h */,
+				0F4DDF671860710C005AE3EB /* ViewController.m */,
+				0F4DDF691860710C005AE3EB /* ViewController.xib */,
+				0F4DDF551860710B005AE3EB /* Supporting Files */,
+			);
+			path = "威锋网新闻";
+			sourceTree = "<group>";
+		};
+		0F4DDF551860710B005AE3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F4DDF561860710B005AE3EB /* 威锋网新闻-Info.plist */,
+				0F4DDF571860710B005AE3EB /* InfoPlist.strings */,
+				0F4DDF5A1860710B005AE3EB /* main.m */,
+				0F4DDF5C1860710B005AE3EB /* 威锋网新闻-Prefix.pch */,
+				0F4DDF601860710C005AE3EB /* Default.png */,
+				0F4DDF621860710C005AE3EB /* Default@2x.png */,
+				0F4DDF641860710C005AE3EB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F4DDF4A1860710B005AE3EB /* 威锋网新闻 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4DDF6E1860710C005AE3EB /* Build configuration list for PBXNativeTarget "威锋网新闻" */;
+			buildPhases = (
+				0F4DDF471860710B005AE3EB /* Sources */,
+				0F4DDF481860710B005AE3EB /* Frameworks */,
+				0F4DDF491860710B005AE3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "威锋网新闻";
+			productName = "威锋网新闻";
+			productReference = 0F4DDF4B1860710B005AE3EB /* 威锋网新闻.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F4DDF431860710B005AE3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ibokan;
+			};
+			buildConfigurationList = 0F4DDF461860710B005AE3EB /* Build configuration list for PBXProject "威锋网新闻" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F4DDF421860710B005AE3EB;
+			productRefGroup = 0F4DDF4C1860710B005AE3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4DDF4A1860710B005AE3EB /* 威锋网新闻 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4DDF491860710B005AE3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4DDF591860710B005AE3EB /* InfoPlist.strings in Resources */,
+				0F4DDF611860710C005AE3EB /* Default.png in Resources */,
+				0F4DDF631860710C005AE3EB /* Default@2x.png in Resources */,
+				0F4DDF651860710C005AE3EB /* Default-568h@2x.png in Resources */,
+				0F4DDF6B1860710C005AE3EB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4DDF471860710B005AE3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4DDF5B1860710B005AE3EB /* main.m in Sources */,
+				0F4DDF5F1860710B005AE3EB /* AppDelegate.m in Sources */,
+				0F4DDF681860710C005AE3EB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F4DDF571860710B005AE3EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4DDF581860710B005AE3EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F4DDF691860710C005AE3EB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4DDF6A1860710C005AE3EB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4DDF6C1860710C005AE3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F4DDF6D1860710C005AE3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F4DDF6F1860710C005AE3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "威锋网新闻/威锋网新闻-Prefix.pch";
+				INFOPLIST_FILE = "威锋网新闻/威锋网新闻-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F4DDF701860710C005AE3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "威锋网新闻/威锋网新闻-Prefix.pch";
+				INFOPLIST_FILE = "威锋网新闻/威锋网新闻-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4DDF461860710B005AE3EB /* Build configuration list for PBXProject "威锋网新闻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4DDF6C1860710C005AE3EB /* Debug */,
+				0F4DDF6D1860710C005AE3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4DDF6E1860710C005AE3EB /* Build configuration list for PBXNativeTarget "威锋网新闻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4DDF6F1860710C005AE3EB /* Debug */,
+				0F4DDF701860710C005AE3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F4DDF431860710B005AE3EB /* Project object */;
+}
